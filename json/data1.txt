@@ -1,0 +1,12 @@
+[{"imgSrc1":"img/index/6.jpg",
+"imgSrc2":"img/index/7.jpg",
+"imgSrc3":"img/index/8.jpg",
+"imgSrc4":"img/index/9.jpg"},
+{"imgSrc1":"img/index/10.jpg",
+"imgSrc2":"img/index/11.jpg",
+"imgSrc3":"img/index/12.jpg",
+"imgSrc4":"img/index/13.jpg"},
+{"imgSrc1":"img/index/14.jpg",
+"imgSrc2":"img/index/15.jpg",
+"imgSrc3":"img/index/16.jpg",
+"imgSrc4":"img/index/17.jpg"}]

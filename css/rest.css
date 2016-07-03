@@ -1,0 +1,67 @@
+html,
+body,
+ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font: 12px/1.5 arial, tahoma, \5b8b\4f53;
+}
+
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+li {
+	list-style: none;
+}
+
+div {
+	display: block;
+}
+
+img {
+	border: none
+}
+
+a,
+body {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:target {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+.strong,
+b {
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height: 0;
+}
+input {
+	border: none;
+	outline: none;
+	font-family: "微软雅黑";
+}

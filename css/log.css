@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+
+.login-header {
+	width: 100%;
+}
+
+.login-wrapper {
+	width: 990px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.login-wrapper .logo {
+	float: left;
+	margin-top: 15px;
+}
+
+.rec {
+	margin-top: 55px;
+	color: #323232;
+	font-size: 12px;
+	cursor: pointer;
+	float: right;
+}
+
+.rec .icon-edit {
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	background: url(../img/logo/spritesheet.png) -144px -1px no-repeat;
+}
+
+.login-body {
+	height: 600px;
+	background: url(../img/logo/146649982825075985.jpg) no-repeat;
+	background-position: center center;
+	margin-top:20px
+}
+
+.login-body .login-wrapper {
+	width: 970px;
+	padding: 0 10px;
+	height: 500px;
+}
+
+.login-wrapper .form {
+	position: relative;
+	margin-top: 80px;
+	width: 386px;
+	height: 390px;
+	background-color: rgba(255, 255, 255, .9);
+	filter: progid: DXImageTransform.Microsoft.gradient(startcolorstr=#E5FFFFFF, endcolorstr=#E5FFFFFF)\9;
+	border-radius: 4px;
+	box-shadow: 0 0 4px rgba(187, 187, 187, .7);
+	color: #323232;
+	line-height: 1;
+	overflow: hidden;
+	float: right;
+}
+
+.form-cont {
+	position: relative;
+	padding-bottom: 80px;
+	margin: 30px 24px 0;
+	z-index: 101;
+}
+
+.form .form-cont .form-title {
+	margin-bottom: 40px;
+	font-size: 20px;
+}
+
+.form .form-cont .username,
+.form .form-cont .userpwd {
+	position: relative;
+	padding: 11px 26px 11px 37px;
+	border: 1px solid #ddd;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.username .icon-username,
+.userpwd .icon-userpwd {
+	display: block;
+	position: absolute;
+	top: 9px;
+	left: 9px;
+	width: 19px;
+	height: 20px;
+	background: url(../img/logo/spritesheet.png) no-repeat;
+}
+
+.username .icon-username {
+	background-position: -110px -24px;
+}
+
+.userpwd .icon-userpwd {
+	background-position: -110px -44px;
+}
+
+.username .userInput,
+.userpwd .pwdInput {
+	width: 294px;
+	height: 18px;
+	background: #fff;
+	color: #333;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.auto-login {
+	position: relative;
+	margin-bottom: 20px;
+	height: 23px;
+}
+
+.form-cont .auto-login input {
+	float: left;
+	margin-top: 1px;
+}
+
+.form .form-cont .auto-login span {
+	float: left;
+	font-size: 12px;
+	margin-left: 5px;
+	line-height: 14px;
+	color: #666;
+	margin-top: 0;
+}
+
+.form .warn-msg {
+	position: relative;
+	padding: 2px 10px 2px 34px;
+	width: 194px;
+	line-height: 16px;
+	top: -5px;
+	left: auto;
+	float: right;
+	background: ivory;
+	font-size: 12px;
+	border: 1px solid #fc6;
+}
+
+.form .form-cont .auto-login .icon-warn {
+	position: absolute;
+	top: 2px;
+	left: 5px;
+	width: 18px;
+	height: 17px;
+	vertical-align: middle;
+	margin: 0 5px 0 0;
+	background: url(../img/logo/newMsIcon.png) no-repeat -175px -140px;
+	display: inline-block;
+	zoom: 1;
+}
+
+.form-cont .login-submit {
+	display: block;
+	padding: 10px 0;
+	height: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	background: #ff9c00;
+	border-radius: 3px;
+}
+
+.linktext {
+	font-size: 12px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.linktext .linkLeft {
+	float: left;
+	color: #f90;
+}
+
+.linktext .linkRight {
+	float: right;
+}
+
+.form-cont .net-coopertion {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 20px;
+}
+
+.form-cont .net-coopertion .show-text {
+	height: 1px;
+	background: url(../img/logo/spritesheet.png) -144px 0 no-repeat;
+	text-align: center;
+}
+
+.show-text span {
+	position: relative;
+	font-size: 12px;
+	top: -8px;
+	left: -3px;
+	color: #999;
+}
+.account-list {
+    margin-top: 20px;
+}
+.account-list a {
+    float: left;
+    display: block;
+    padding: 0 15px;
+    height: 15px;
+    line-height: 15px;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+    font-size:12px;
+}
+/**/
+
+
+.ng-s-footer {
+	font-size:12px;
+	margin-top:20px;
+	min-width: 990px;
+	
+}
+.ng-s-footer .ng-s-f-con {
+	width: 990px;
+	min-width:990px;
+	height: 120px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.ng-s-footer p{text-align: center;}
+.ng-s-footer p.ng-url-list {
+	line-height: 25px;
+	height: 25px;
+}
+.ng-s-footer p.ng-url-list a {
+	color:#666;
+}
+.ng-s-footer p.ng-url-list span {
+	color: #888;
+	padding: 0 8px;
+}
+.ng-s-footer p.ng-url-list {
+	line-height: 25px;
+	height: 25px;
+}
+.ng-s-footer p.ng-url-list a {
+	color:#666;
+}
+.ng-s-footer p.ng-copyright {
+	width: 990px;
+	float: left;
+	margin-bottom: 10px;
+}
+.ng-s-footer .ng-authentication {
+	width: 990px;
+	float: none;
+	height: 25px;
+	text-align: center;
+	
+
+	
+	
+}
+.ng-s-footer .ng-authentication a {
+		text-align: center;
+	display: inline-block;
+
+	margin-right: 8px;
+}
