@@ -2,13 +2,8 @@
 
  * 小tips：
  *    在侧边购物车添加鼠标移入移除效果
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+
+ *
  * */
 /*轮播图*/
 (function () {
@@ -172,12 +167,11 @@ for (var i = 0; i < pSpan.length; i++) {
     getData();
     function getData() {
         var xml = new XMLHttpRequest();
-        xml.open('get', 'json/data1.txt?_=' + Math.random(), false);
+        xml.open('get', 'json/data.json?_=' + Math.random(), false);
 
         xml.onreadystatechange = function () {
             if (xml.readyState === 4 && /^2\d{2}$/.test(xml.status)) {
-
-                data = utils.jsonParse(xml.responseText);
+                  data = utils.jsonParse(xml.responseText);
             }
         };
         xml.send();
